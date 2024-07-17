@@ -11,13 +11,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="notes-head"><h1>Create Notes</h1> <div><img src="./public/notes-logo.jpg" alt="notes" width="50" height="50"></div></div>
-        <form id="noteForm" style="margin-bottom: 20px;">
-            <input type="text" id="content" placeholder="Content" required>
-            <input type="text" id="ref" placeholder="Reference" required>
-            <input type="date" id="date" required>
-            <button type="submit">Add Note</button>
-        </form>
+        <div class="notes-form">
+            <div class="notes-head"><h1>Create Notes</h1> <div><img src="./public/notes-logo.jpg" alt="notes" width="50" height="50"></div></div>
+            <h6 >Note: These notes will be stored in your browser's local storage. If you clear your browser data, the notes will be deleted.</h6>
+            <form id="noteForm" style="margin-bottom: 20px;">
+                <input type="text" id="content" placeholder="Content" required>
+                <input type="text" id="ref" placeholder="Reference" required>
+                <input type="date" id="date" required>
+                <button type="submit">Add Note</button>
+            </form>
+        </div>
         <div id="notesList"></div>
     </div>
             <script src="./script.js"></script>
