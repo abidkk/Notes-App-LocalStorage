@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="notes-head"><h1>Create Notes</h1> <div><img src="./public/notes-logo.jpg" alt="notes" width="50" height="50"></div></div>
+        <form id="noteForm" style="margin-bottom: 20px;">
+            <input type="text" id="content" placeholder="Content" required>
+            <input type="text" id="ref" placeholder="Reference" required>
+            <input type="date" id="date" required>
+            <button type="submit">Add Note</button>
+        </form>
+        <div id="notesList"></div>
+    </div>
+            <script src="./script.js"></script>
+</body>
+</html>

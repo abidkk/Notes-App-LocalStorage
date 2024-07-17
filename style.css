@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: "Caveat", cursive;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.note {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+}
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px 0px;
+  font-size: 10px;
+}
+.delete-btn:hover {
+  background-color: #c82333;
+}
+h5 {
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 1px solid rgb(210, 209, 209);
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.note {
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+.note:hover {
+  transform: scale(1.1);
+}
+.notes-head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
